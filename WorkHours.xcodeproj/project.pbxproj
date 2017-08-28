@@ -9,23 +9,29 @@
 /* Begin PBXBuildFile section */
 		66F65130E9B6A6526BD53031 /* Pods_WorkHours.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA9DD9CA8329BAD657B5A030 /* Pods_WorkHours.framework */; };
 		86A3BA761F5460EE00ABF0A0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86A3BA751F5460EE00ABF0A0 /* AppDelegate.swift */; };
-		86A3BA781F5460EE00ABF0A0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86A3BA771F5460EE00ABF0A0 /* ViewController.swift */; };
 		86A3BA7B1F5460EE00ABF0A0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86A3BA791F5460EE00ABF0A0 /* Main.storyboard */; };
 		86A3BA7E1F5460EF00ABF0A0 /* WorkHours.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 86A3BA7C1F5460EF00ABF0A0 /* WorkHours.xcdatamodeld */; };
 		86A3BA801F5460EF00ABF0A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86A3BA7F1F5460EF00ABF0A0 /* Assets.xcassets */; };
 		86A3BA831F5460EF00ABF0A0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86A3BA811F5460EF00ABF0A0 /* LaunchScreen.storyboard */; };
+		86A3BA8D1F54621B00ABF0A0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86A3BA8C1F54621B00ABF0A0 /* ViewController.swift */; };
+		86A3BA901F5462C800ABF0A0 /* CheckService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86A3BA8F1F5462C800ABF0A0 /* CheckService.swift */; };
+		86A3BA921F5462E600ABF0A0 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86A3BA911F5462E600ABF0A0 /* CoreDataStack.swift */; };
+		86A3BA941F5463D700ABF0A0 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86A3BA931F5463D700ABF0A0 /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		6F2A377C8B436B2A17117F90 /* Pods-WorkHours.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WorkHours.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WorkHours/Pods-WorkHours.debug.xcconfig"; sourceTree = "<group>"; };
 		86A3BA721F5460EE00ABF0A0 /* WorkHours.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WorkHours.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		86A3BA751F5460EE00ABF0A0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		86A3BA771F5460EE00ABF0A0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		86A3BA7A1F5460EE00ABF0A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		86A3BA7D1F5460EF00ABF0A0 /* WorkHours.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WorkHours.xcdatamodel; sourceTree = "<group>"; };
 		86A3BA7F1F5460EF00ABF0A0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		86A3BA821F5460EF00ABF0A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		86A3BA841F5460EF00ABF0A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		86A3BA8C1F54621B00ABF0A0 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		86A3BA8F1F5462C800ABF0A0 /* CheckService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckService.swift; sourceTree = "<group>"; };
+		86A3BA911F5462E600ABF0A0 /* CoreDataStack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
+		86A3BA931F5463D700ABF0A0 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		9C313EA275A62E8E7B60E81C /* Pods-WorkHours.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WorkHours.release.xcconfig"; path = "Pods/Target Support Files/Pods-WorkHours/Pods-WorkHours.release.xcconfig"; sourceTree = "<group>"; };
 		DA9DD9CA8329BAD657B5A030 /* Pods_WorkHours.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WorkHours.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -80,8 +86,10 @@
 		86A3BA741F5460EE00ABF0A0 /* WorkHours */ = {
 			isa = PBXGroup;
 			children = (
+				86A3BA8E1F54624200ABF0A0 /* Common */,
+				86A3BA8A1F54621B00ABF0A0 /* Dashboard */,
+				86A3BA8B1F54621B00ABF0A0 /* Home */,
 				86A3BA751F5460EE00ABF0A0 /* AppDelegate.swift */,
-				86A3BA771F5460EE00ABF0A0 /* ViewController.swift */,
 				86A3BA791F5460EE00ABF0A0 /* Main.storyboard */,
 				86A3BA7F1F5460EF00ABF0A0 /* Assets.xcassets */,
 				86A3BA811F5460EF00ABF0A0 /* LaunchScreen.storyboard */,
@@ -89,6 +97,31 @@
 				86A3BA7C1F5460EF00ABF0A0 /* WorkHours.xcdatamodeld */,
 			);
 			path = WorkHours;
+			sourceTree = "<group>";
+		};
+		86A3BA8A1F54621B00ABF0A0 /* Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Dashboard;
+			sourceTree = "<group>";
+		};
+		86A3BA8B1F54621B00ABF0A0 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				86A3BA8C1F54621B00ABF0A0 /* ViewController.swift */,
+				86A3BA8F1F5462C800ABF0A0 /* CheckService.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		86A3BA8E1F54624200ABF0A0 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				86A3BA911F5462E600ABF0A0 /* CoreDataStack.swift */,
+				86A3BA931F5463D700ABF0A0 /* Extensions.swift */,
+			);
+			path = Common;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -215,8 +248,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				86A3BA781F5460EE00ABF0A0 /* ViewController.swift in Sources */,
+				86A3BA921F5462E600ABF0A0 /* CoreDataStack.swift in Sources */,
+				86A3BA941F5463D700ABF0A0 /* Extensions.swift in Sources */,
+				86A3BA901F5462C800ABF0A0 /* CheckService.swift in Sources */,
 				86A3BA761F5460EE00ABF0A0 /* AppDelegate.swift in Sources */,
+				86A3BA8D1F54621B00ABF0A0 /* ViewController.swift in Sources */,
 				86A3BA7E1F5460EF00ABF0A0 /* WorkHours.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -385,6 +421,7 @@
 				86A3BA891F5460EF00ABF0A0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
